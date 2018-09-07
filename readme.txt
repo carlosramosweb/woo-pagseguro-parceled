@@ -7,6 +7,7 @@ Tested up to: 4.9.8
 Stable tag: 1.6.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Github: https://github.com/carlosramosweb/woo-pagseguro-parceled/
 
 Exibir o parcelamento sem juros pré-configurado no Painel Administrativo usando o plugin WooCommerce PagSeguro.
 
