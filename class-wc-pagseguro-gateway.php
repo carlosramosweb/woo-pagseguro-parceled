@@ -1,6 +1,6 @@
 <?php
 /**
- * WooCommerce PagSeguro Gateway class
+ * Gateway class
  *
  * @package WooCommerce_PagSeguro/Classes/Gateway
  * @version 2.13.0
@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * WooCommerce PagSeguro gateway.
+ * Gateway.
  */
 class WC_PagSeguro_Gateway extends WC_Payment_Gateway {
 
@@ -237,6 +237,37 @@ class WC_PagSeguro_Gateway extends WC_Payment_Gateway {
 				'description' => sprintf( __( 'Please enter your PagSeguro token. This is needed to process the payment and notifications. Is possible generate a new token %s.', 'woocommerce-pagseguro' ), '<a href="https://pagseguro.uol.com.br/integracao/token-de-seguranca.jhtml">' . __( 'here', 'woocommerce-pagseguro' ) . '</a>' ),
 				'default'     => '',
 			),
+			/*  installment payment */
+			'installment' => array(
+				'title'       => __( 'Installment (No interest)', 'woo-pagseguro-parceled' ),
+				'type'        => 'select',
+				'description' => sprintf( __( 'Enter here the installment plan you set in PagSeguro.', 'woo-pagseguro-parceled' )),
+				'desc_tip'    => true,
+				'default'     => '0',
+				'class'       => 'wc-enhanced-select',
+				'options'     => array(
+					'0'	=> __( 'Disabled (Default)', 'woo-pagseguro-parceled' ),
+					'1'	=> __( '1x No Interest', 'woo-pagseguro-parceled' ),
+					'2'	=> __( '2x No Interest', 'woo-pagseguro-parceled' ),
+					'3'	=> __( '3x No Interest', 'woo-pagseguro-parceled' ),
+					'4'	=> __( '4x No Interest', 'woo-pagseguro-parceled' ),
+					'5'	=> __( '5x No Interest', 'woo-pagseguro-parceled' ),
+					'6'	=> __( '6x No Interest', 'woo-pagseguro-parceled' ),
+					'7'	=> __( '7x No Interest', 'woo-pagseguro-parceled' ),
+					'8'	=> __( '8x No Interest', 'woo-pagseguro-parceled' ),
+					'9'	=> __( '9x No Interest', 'woo-pagseguro-parceled' ),
+					'10'	=> __( '10x No Interest', 'woo-pagseguro-parceled' ),
+					'11'	=> __( '11x No Interest', 'woo-pagseguro-parceled' ),
+					'12'	=> __( '12x No Interest', 'woo-pagseguro-parceled' ),
+				)
+			),
+			'installment_single_product' => array(
+				'title'   => __( 'Product page', 'woo-pagseguro-parceled' ),
+				'type'    => 'checkbox',
+				'label'   => __( 'Enable full installment display with and without interest.', 'woo-pagseguro-parceled' ),
+				'default' => 'yes'
+			),
+			/*  fim installment payment */
 			'sandbox_email'        => array(
 				'title'       => __( 'PagSeguro Sandbox Email', 'woocommerce-pagseguro' ),
 				'type'        => 'text',
