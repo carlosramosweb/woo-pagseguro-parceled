@@ -1,24 +1,25 @@
-=== Woo PagSeguro Parceled ===
+=== PagSeguro Parceled for WooCommerce ===
 Contributors: carlosramosweb
-Donate link: http://wwww.criacaocriativa.com.br
-Tags: woocommerce, pagseguro, payment, parceled, installments, parcela, parcelamento, pagamento, gateway, exibe parcela, mostra parcela, woocommerce, single product, página product
+Plugin URI: https://wordpress.org/plugins/woo-pagseguro-parceled/
+Donate link: https://donate.criacaocriativa.com
+Tags: pagseguro, payment, parceled, installments, parcela, parcelamento, exibe parcela, mostra parcela, página detalhe de produto
 Requires at least: 3.5.0
-Tested up to: 5.4.2
-Stable tag: 1.7.0
+Tested up to: 5.6
+Stable tag: 1.7.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Exibir o parcelamento sem e com juros pré-configurado no Painel Administrativo usando os plugins WooCommerce e WooCommerce PagSeguro.
+Exibir o parcelamento sem e com juros pré-configurado no Painel Administrativo usando os plugins.
 
 == Description ==
 
 = Em Português Brasil =
-Trata-se de um pequeno sistema para exibir o parcelamento sem e com juros pré-configurado no Painel Administrativo WordPress usando o plugin Woocommerce PagSeguro. O plugin foi criado para melhorar a experiência do cliente final exibindo no loop dos produtos o cálculo.
+Trata-se de um pequeno sistema para exibir o parcelamento sem e com juros pré-configurado no Painel Administrativo WordPress usando a formula de calculo do PagSeguro. O plugin foi criado para melhorar a experiência do cliente final exibindo no loop dos produtos o cálculo.
 
 Credit icon: Flaticon = https://www.flaticon.com/
 
 = in English =
-It is a small system to display the installment plan without preset interest in WordPress Admin Panel using the plugin WooCommerce PagSeguro.
+It is a small system to display the installment plan without preset interest in WordPress Admin Panel using the plugin PagSeguro.
 The plugin is designed to enhance the experience of the end customer displayed on the loop of products calculation.
 
 
@@ -26,25 +27,26 @@ The plugin is designed to enhance the experience of the end customer displayed o
 
 = Instalação =
 * Fazer upload para o /wp-content/plugins/diretório
-* Verifique se já tem instalado os Plugins WooCommerce e WooCommerce PagSeguro fundamental para o funcionamento do plugin.
+* Verifique se já tem instalado os Plugins é fundamental para o funcionamento do plugin.
 * Ative o plugin através do menu 'Plugins' no WordPress.
-* Vá até o o menu do WooCommerce > PagSeguro Parceled.
+* Vá até o o menu do > PagSeguro Parceled.
 
+> Carlos Ramos
 > Dúvidas ainda entre em contato [aqui](carlosramosweb@hotmail.com).
-> +55 61 98268-2408
+> +55 61 98268-2408 WhatsApp
 
 == Frequently Asked Questions ==
 
 > O nosso FAQ é sempre atualizado com as dúvidas mais recebidas. Então fique atendo as nossas atualizações frequentes.
 
 = O que eu preciso para utilizar este plugin? =
-Ter instalado os plugins WooCommerce e Woocommerce PagSeguro.
+Ter instalado o plugin.
 
 = Qual país o PagSeguro atende? =
 Atualmente o PagSeguro recebe pagamento somente e exclusivamente do Brasil.
 
 = Este plugin modifica o outro que tenho instalado? =
-Em parte! Este plugin veio para complementar o plugin Woocommerce PagSeguro na falta de configurações de parcelamento e exibição dos mesmo sem juros.
+Não mais. Agora tem um painel separado do plugin PagSeguro.
 
 = Tenho que configurar o parcelamento também no website do PagSeguro? =
 Sim! Nosso plugin somente apresenta o que você deve configurar no website do PagSeguro.
@@ -53,7 +55,7 @@ Sim! Nosso plugin somente apresenta o que você deve configurar no website do Pa
 Não necessariamente! Como qualquer desenvolvedor ou usuário do wordpress, criamos a mania de segurança e antes de instalar qualquer plugin faça o backup do banco de dados e arquivos.
 
 = Por que este plugin foi criado? =
-Houve a necessidade de alguns de nossos clientes na exibição do parcelamento sem juros e com isso estamos disponibilizando gratuitamente em razão de testes de publicação no WordPress Plugins. Uma parte da ideia deste código foi removida do plugin WooCommerce Installments que hoje não é mais atualizado.
+Houve a necessidade de alguns de nossos clientes na exibição do parcelamento sem juros e com isso estamos disponibilizando gratuitamente em razão de testes de publicação no WordPress Plugins. Uma parte da ideia deste código foi removida do plugin Installments que hoje não é mais atualizado.
 
 = Posso ajudar a melhorar o Plugin? =
 Claro! Toda ajuda é bem vinda e estamos a disposição para apreciar as suas modificações. Envie seu código para  o e-mail carlosramosweb@hotmail.com.
@@ -61,8 +63,8 @@ Claro! Toda ajuda é bem vinda e estamos a disposição para apreciar as suas mo
 = Qual é a licença do plugin? =
 Este plugin está licenciado como GPLv2 or later.
 
-= Gostei do plugin e queria ajudar financeiramente? =
-Ficamos felizes em saber que lhe ajudamos! Para doar qualquer quantia use este [link](http://donate.criacaocriativa.com.br), será remetido ao sistema do PagSeguro.
+= Gostei do plugin e queria ajudar financeiramente =
+Ficamos felizes em saber que lhe ajudamos! Para doar qualquer quantia use este [link](https://donate.criacaocriativa.com.br), será remetido ao sistema do PagSeguro.
 
 == License ==
 
@@ -75,12 +77,37 @@ You should have received a copy of the GNU General Public License along with Nom
 
 == Changelog ==
 
+= 1.7.9 08/03/2021 - 11h =
+* [Novo Recurso] Configuração de habilitar/desabilitar exibição do texto no loop dos produtos. @bsiqueira93
+* [Novo Recurso] Configuração de habilitar/desabilitar exibição do texto na página de detalhe do produto. @bsiqueira93
+* [Novo Recurso] Configuração de habilitar/desabilitar exibição da tabela de parcelamento na página de detalhe do produto. @bsiqueira93
+* [Novo Recurso] Configuração de habilitar/desabilitar exibição da mensagem na página do carrinho de compras. @bsiqueira93
+
+= 1.7.5 08/02/2021 - 10h =
+* [Direito Autorais] Foi alterado para respeitar os direitos autorais da marca do plugin ao qual adiciona a extensão.
+
+= 1.7.4 23/01/2021 - 4h =
+* [Novo Recurso] Foi adicionado uma nova aba Extras para configurações mais avançadas.
+* [Novo Recurso] Configurações Avançadas que poderá adicionar mais porcentos ou valor fixo em cada parcelas, tanto sem juros, com juros ou os dois. Exemplo: Além do valor das parcelas já configuradas do PagSeguro é possivel adicionar ainda delas uma porcentagem ou valor fixo. @smithexe
+
+= 1.7.3 22/01/2021 - 22h =
+* [Novo Recurso] Foi adicionado um campo para ordenar a entrada do action no Hook do nas páginas de loop e detalhe do produto.
+
+= 1.7.2 09/09/2020 - 17h =
+* [Correção de erro] Foi corrigido o erro (Fatal error: Uncaught Error: Using $this when not in object context) no woo-pagseguro-parceled.php linha 78.
+
+= 1.7.1 06/09/2020 - 1h =
+* [Ajuste] Foi removido a obrigatoriedade de se ter o plugin Pagseguro instalado e ativo.
+* [Novo Recurso] Sistema de exibição de parcelamento sem juros a partir de um detarminado valor. @cadueduardo
+* [Novo Recurso] Sistema de edição de parcela mínima.
+* [Novo Recurso] Sistema de edição do CSS do front-end referente ao plugin.
+
 = 1.7.0 13/08/2020 - 23h30 =
 * [Importante] Alteração da forma de calculo das parcelas. Sai o fator multiplicador e entra o juros de 2,99% ao mês.
 
 = 1.6.9 06/08/2020 - 3h =
-* Criação de uma página administrativa separada do plugin WooCommerce Pagseguro.
-* Adição de um submenu no menu pai WooCommerce.
+* Criação de uma página administrativa separada do plugin Pagseguro.
+* Adição de um submenu no menu pai.
 
 = 1.6.8 =
 * Alteração de funções obsoletas.
@@ -92,7 +119,7 @@ You should have received a copy of the GNU General Public License along with Nom
 * Ajuste na variável installment (Erro: Erro Use of undefined constant) @pedrowavila, @msandre1970.
 
 = 1.6.5 =
-* Ajuste de método do woocommerce o wc_get_product() no lugar de get_product().
+* Ajuste de método do o wc_get_product() no lugar de get_product().
 
 = 1.6.4 =
 * Retirada da verificação de versão para melhor atualização.
@@ -110,7 +137,7 @@ You should have received a copy of the GNU General Public License along with Nom
 * Correção do erro [Warning: Division by zero] para valores de produtos abaixo de R$ 5 reais.
 
 = 1.5.9 =
-* Verificação dos plugin obrigatório WooCommerce e ou WooCommerce Pagseguro.
+* Verificação dos plugin obrigatório e ou Pagseguro.
 * Mensagem de erro para as verificações de plugins obrigatório.
 * Desativação automática do plugin.
 * Ajuste no parcelamento para usar a partir de 1x sem juros.
@@ -122,15 +149,15 @@ You should have received a copy of the GNU General Public License along with Nom
 
 = 1.5.2 =
 * Mais melhorias no código do arquivo uninstall.php.
-* Ajuste de verificação do Plugin se instalado antes WooCommerce Pagseguro.
+* Ajuste de verificação do Plugin se instalado antes Pagseguro.
 * Mensagem de erro para a verificação do Plugin se instalado.
-* Ajuste da versão da 2.11.3 do plugin Woocommerce PagSeguro.
+* Ajuste da versão da 2.11.3 do plugin PagSeguro.
 
 = 1.5.1 =
 * Mais melhorias no código do arquivo woo-pagseguro-parceled.php.
 * Melhoria dos comentários no código em Português Brasil.
 * Distribuição das parcelas na tabela que fica na página produtos (valores impares e pares) - Crédito de sugestão para brendaferreirap.
-* Ajuste da versão da 2.11.0 do plugin Woocommerce PagSeguro. 
+* Ajuste da versão da 2.11.0 do plugin PagSeguro. 
 
 = 1.5.0 =
 * Cópia automática do arquivo class-wc-pagseguro-gateway.php obrigatória para o bom funcionamento do plugin.
@@ -172,10 +199,10 @@ You should have received a copy of the GNU General Public License along with Nom
 * Ajuste importante para evitar travamento do wordpress - Crédito de identificação de erro para paulo1979.
 
 = 1.5.2 =
-* Aviso de erro e ajuste da nova versão do plugin Woocommerce PagSeguro 2.11.3.
+* Aviso de erro e ajuste da nova versão do plugin PagSeguro 2.11.3.
 
 = 1.5.1 =
-* Questões estéticas e ajuste da nova versão do plugin Woocommerce PagSeguro 2.11.0.
+* Questões estéticas e ajuste da nova versão do plugin PagSeguro 2.11.0.
 
 = 1.5.0 =
 * Está atualização veio para automatizar a instalação do plugin em respeito a copia do arquivo editado com um simples botão.
@@ -184,13 +211,13 @@ You should have received a copy of the GNU General Public License along with Nom
 * Questões estéticas e mais recursos disponíveis, além de ajustes importantes no simulador.
 
 = 1.4.0 =
-* O ajuste foi feita para ficar de acordo com a nova versão plugin Woocommerce PagSeguro.
+* O ajuste foi feita para ficar de acordo com a nova versão plugin PagSeguro.
 
 = 1.3.0 =
 * lançamento inicial.
 
 == Screenshots ==
-1. Novo painel de configurações em submenu do menu WooCommerce.
+1. Novo painel de configurações em submenu do menu.
 2. Exibindo parcelamento PagSeguro no loop dos produtos, página do produto e carrinho de compras.
 3. Como ativar seu plugin: Na instalação via web ou upload.
 4. Links para configuração do sistema.
